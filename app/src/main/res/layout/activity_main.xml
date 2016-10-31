@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinierLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -11,8 +12,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.learn.intent3.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</LinierLayout>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_call_black_24dp"
+        android:id="@+id/imageViewPhone"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_message_black_24dp"
+        android:id="@+id/imageViewSMS"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_language_black_24dp"
+        android:id="@+id/imageViewBrowser"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+        android:id="@+id/imageViewCamera"
+        android:layout_weight="1" />
+</LinearLayout>
